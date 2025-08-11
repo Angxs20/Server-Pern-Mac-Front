@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import FormularioProducto from './components/Productos/FormularioProductos'
+import VerProductos from './components/Productos/VerProductos'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <FormularioProducto></FormularioProducto>
+    <VerProductos></VerProductos>
     </>
   )
 }
