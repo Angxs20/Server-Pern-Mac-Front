@@ -10,6 +10,9 @@ function App() {
 
   return (
     <>
+    <div className='w-full flex justify-center'>
+      <h1 className='text-4xl text-center'> Hola apReprobados</h1>
+    </div>
     <FormularioProducto></FormularioProducto>
     <VerProductos></VerProductos>
     </>
